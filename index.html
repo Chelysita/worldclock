@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"
+      ;
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.47/moment-timezone-with-data-1970-2030.js"
+      ;
+    ></script>
     <title>World Clock</title>
   </head>
   <body>
@@ -17,14 +25,14 @@
         <option value="taipei">Taipei</option>
         <option value="dublin">Dublin</option>
       </select>
-      <div class="city">
+      <div class="city" id="mexico-city">
         <div>
           <h2>Mexico City 🇲🇽</h2>
           <div class="date">August 15th 2025</div>
         </div>
         <div class="time">1:48:15 <small>AM</small></div>
       </div>
-      <div class="city">
+      <div class="city" id="boston">
         <div>
           <h2>Boston 🇺🇸</h2>
           <div class="date">August 15th 2023</div>
