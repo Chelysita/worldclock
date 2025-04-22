@@ -18,26 +18,28 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+      <select id="city">
         <option value="">Choose a city</option>
-        <option value="mexico">Mexico City</option>
-        <option value="boston">Boston</option>
-        <option value="taipei">Taipei</option>
-        <option value="dublin">Dublin</option>
+        <option value="America/Mexico_City">Mexico City</option>
+        <option value="America/New_York">New York</option>
+        <option value="Asia/Taipei">Taipei</option>
+        <option value="Europe/Dublin">Dublin</option>
       </select>
-      <div class="city" id="mexico-city">
-        <div>
-          <h2>Mexico City 🇲🇽</h2>
-          <div class="date">August 15th 2025</div>
+      <div id="cities">
+        <div class="city" id="mexico-city">
+          <div>
+            <h2>Mexico City 🇲🇽</h2>
+            <div class="date">August 15th 2025</div>
+          </div>
+          <div class="time">1:48:15 <small>AM</small></div>
         </div>
-        <div class="time">1:48:15 <small>AM</small></div>
-      </div>
-      <div class="city" id="boston">
-        <div>
-          <h2>Boston 🇺🇸</h2>
-          <div class="date">August 15th 2023</div>
+        <div class="city" id="boston">
+          <div>
+            <h2>Boston 🇺🇸</h2>
+            <div class="date">August 15th 2023</div>
+          </div>
+          <div class="time">1:48:15 <small>AM</small></div>
         </div>
-        <div class="time">1:48:15 <small>AM</small></div>
       </div>
     </div>
     <footer>
